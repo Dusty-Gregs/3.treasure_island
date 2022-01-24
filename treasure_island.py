@@ -30,7 +30,7 @@ print("Your mission is to find the treasure.")
 direction = input("You finally arrive on shore, exhausted from the long journey. You notice rum to your left and food to your right. Which way would you like to go? Type \"left\" or \"right\".\n").lower()
 
 if direction == "left":
-  water = input("Before you get to the rum, you notice that your path is actually blocked but a stream of lava. Would you like to swim through the lava or wait? Type \"swim\" or \"wait\".\n").lower()
+  water = input("Before you get to the rum, you notice that your path is actually blocked by a stream of lava. Would you like to swim through the lava or wait? Type \"swim\" or \"wait\".\n").lower()
   if water == "wait":
     door = input("You finally arrive to the rum only to find out it was a mirage the whole time. But all is not lost. After looking around a moment, you happen upon a hut with 3 doors, red, yellow and blue. Which door would you like to open? Type \"red\", \"yellow\", or \"blue\".\n").lower()
     if door == "red":
